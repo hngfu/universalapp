@@ -13,25 +13,28 @@
         <!--View Controller-->
         <scene sceneID="TfY-VT-hdF">
             <objects>
-                <viewController id="d1W-11-pdy" sceneMemberID="viewController">
+                <viewController id="d1W-11-pdy" customClass="ViewController" customModule="UniversalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mlh-Z9-Fxd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGG-ZA-Hob">
-                                <rect key="frame" x="16" y="36" width="95" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGG-ZA-Hob">
+                                <rect key="frame" x="16" y="36" width="70" height="27"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8G-Wm-RJo">
-                                <rect key="frame" x="16" y="536.66666666666663" width="57" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keanu Charles Reeves" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8G-Wm-RJo">
+                                <rect key="frame" x="16" y="536.66666666666663" width="230" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8f-sO-e9x">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8f-sO-e9x">
                                 <rect key="frame" x="16" y="579.66666666666663" width="382" height="140.33333333333337"/>
+                                <string key="text">Movie star. Born in 1964, 54 years old.
+
+The official nationality is Canada. His father is a mixed-race American of native Hawaiians and Chinese, and his mother is British. The birthplace is Lebanon. His father then left his family when Keanu Reeves was three years old, and Keanu Reeves settled with his mother in Canada in 1970. Perhaps because of his father's lineage, he has an Asian feeling for a white actor who works in Hollywood.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -64,6 +67,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0L4-1V-0Lx"/>
                     </view>
+                    <connections>
+                        <outlet property="actorImageView" destination="dfD-Z9-hES" id="eWk-7G-VB8"/>
+                        <outlet property="birthdayButton" destination="7SK-JJ-52e" id="og2-Dy-gM1"/>
+                        <outlet property="infoLabel" destination="J8f-sO-e9x" id="KSN-cr-Es8"/>
+                        <outlet property="languageLabel" destination="gGG-ZA-Hob" id="kDQ-co-8Bc"/>
+                        <outlet property="nameLabel" destination="i8G-Wm-RJo" id="Tyh-Jm-NCK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="24B-6R-BCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
