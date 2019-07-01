@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         languageLabel.text = "Language".localized
         nameLabel.text = "Name".localized
         infoLabel.text = "Info".localized
-        birthdayButton.titleLabel?.text = "Birthday".localized
+        birthdayButton.setTitle("Birthday".localized, for: .normal)
     }
 }
 
