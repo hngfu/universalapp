@@ -1,15 +1,3 @@
 
-/* Class = "UIButton"; normalTitle = "Birthday"; ObjectID = "UxF-th-9t9"; */
-"UxF-th-9t9.normalTitle" = "Birthday";
-
-/* Class = "UILabel"; text = "English"; ObjectID = "mfe-WN-dGT"; */
-"mfe-WN-dGT.text" = "English";
-
-/* Class = "UILabel"; text = "Keanu Charles Reeves"; ObjectID = "nZ1-1b-7L7"; */
-"nZ1-1b-7L7.text" = "Keanu Charles Reeves";
-
-/* Class = "UILabel"; text = "Movie star. Born in 1964, 54 years old.\n\nThe official nationality is Canada. His father is a mixed-race American of native Hawaiians and Chinese, and his mother is British. The birthplace is Lebanon. His father then left his family when Keanu Reeves was three years old, and Keanu Reeves settled with his mother in Canada in 1970. Perhaps because of his father's lineage, he has an Asian feeling for a white actor who works in Hollywood."; ObjectID = "u9Y-xF-Oom"; */
-"u9Y-xF-Oom.text" = "Movie star. Born in 1964, 54 years old.\n\nThe official nationality is Canada. His father is a mixed-race American of native Hawaiians and Chinese, and his mother is British. The birthplace is Lebanon. His father then left his family when Keanu Reeves was three years old, and Keanu Reeves settled with his mother in Canada in 1970. Perhaps because of his father's lineage, he has an Asian feeling for a white actor who works in Hollywood.";
-
 /* Class = "UILabel"; text = "Show this label on iPad"; ObjectID = "uvN-xb-yKo"; */
-"uvN-xb-yKo.text" = "Show this label on iPad";
+"uvN-xb-yKo.text" = "이 라벨은 아이패드에서 보입니다.";
