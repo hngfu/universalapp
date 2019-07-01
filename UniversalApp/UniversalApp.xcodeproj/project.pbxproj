@@ -12,6 +12,8 @@
 		7DA011F022C9CA9600B66827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011EE22C9CA9600B66827 /* Main.storyboard */; };
 		7DA011F222C9CA9700B66827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011F122C9CA9700B66827 /* Assets.xcassets */; };
 		7DA011F522C9CA9700B66827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011F322C9CA9700B66827 /* LaunchScreen.storyboard */; };
+		7DA011FD22C9D2A700B66827 /* iPadMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011FC22C9D2A700B66827 /* iPadMain.storyboard */; };
+		7DA011FF22C9D2AF00B66827 /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011FE22C9D2AF00B66827 /* iPhoneMain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7DA011F122C9CA9700B66827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA011F422C9CA9700B66827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA011F622C9CA9700B66827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA011FC22C9D2A700B66827 /* iPadMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadMain.storyboard; sourceTree = "<group>"; };
+		7DA011FE22C9D2AF00B66827 /* iPhoneMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				7DA011EA22C9CA9500B66827 /* AppDelegate.swift */,
 				7DA011EC22C9CA9600B66827 /* ViewController.swift */,
 				7DA011EE22C9CA9600B66827 /* Main.storyboard */,
+				7DA011FC22C9D2A700B66827 /* iPadMain.storyboard */,
+				7DA011FE22C9D2AF00B66827 /* iPhoneMain.storyboard */,
 				7DA011F122C9CA9700B66827 /* Assets.xcassets */,
 				7DA011F322C9CA9700B66827 /* LaunchScreen.storyboard */,
 				7DA011F622C9CA9700B66827 /* Info.plist */,
@@ -123,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA011F522C9CA9700B66827 /* LaunchScreen.storyboard in Resources */,
+				7DA011FD22C9D2A700B66827 /* iPadMain.storyboard in Resources */,
+				7DA011FF22C9D2AF00B66827 /* iPhoneMain.storyboard in Resources */,
 				7DA011F222C9CA9700B66827 /* Assets.xcassets in Resources */,
 				7DA011F022C9CA9600B66827 /* Main.storyboard in Resources */,
 			);
