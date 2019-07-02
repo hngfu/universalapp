@@ -18,17 +18,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        actorImageView.image = UIImage(named: "Name".localized)
-        languageLabel.text = "Language".localized
-        nameLabel.text = "Name".localized
-        infoLabel.text = "Info".localized
-        birthdayButton.setTitle("Birthday".localized, for: .normal)
-    }
-}
 
-extension String {
-    var localized: String {
-        return NSLocalizedString(self, comment: "")
     }
 }

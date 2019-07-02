@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dCK-6Q-Igs">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UeP-F1-dHO">
+            <objects>
+                <viewController id="dCK-6Q-Igs" customClass="ViewController" customModule="UniversalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mbG-wV-hT6">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfe-WN-dGT">
+                                <rect key="frame" x="16" y="36" width="137" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keanu Charles Reeves" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZ1-1b-7L7">
+                                <rect key="frame" x="16" y="940.5" width="453" height="53"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MDb-Yc-ujD">
+                                <rect key="frame" x="16" y="105" width="992" height="819.5"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxF-th-9t9">
+                                <rect key="frame" x="875" y="940.5" width="133" height="65"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <state key="normal" title="誕生日"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このラベルをiPadで表示する" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvN-xb-yKo">
+                                <rect key="frame" x="441" y="36" width="567" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <color key="textColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9Y-xF-Oom">
+                                <rect key="frame" x="16" y="1009.5" width="992" height="340.5"/>
+                                <string key="text">Movie star. Born in 1964, 54 years old.
+
+The official nationality is Canada. His father is a mixed-race American of native Hawaiians and Chinese, and his mother is British. The birthplace is Lebanon. His father then left his family when Keanu Reeves was three years old, and Keanu Reeves settled with his mother in Canada in 1970. Perhaps because of his father's lineage, he has an Asian feeling for a white actor who works in Hollywood.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u9Y-xF-Oom" firstAttribute="top" secondItem="nZ1-1b-7L7" secondAttribute="bottom" constant="16" id="4RV-e4-XnR"/>
+                            <constraint firstItem="mfe-WN-dGT" firstAttribute="top" secondItem="chB-AK-jlt" secondAttribute="top" constant="16" id="BIv-Q9-sRj"/>
+                            <constraint firstItem="MDb-Yc-ujD" firstAttribute="leading" secondItem="chB-AK-jlt" secondAttribute="leading" constant="16" id="Jzh-q2-DtI"/>
+                            <constraint firstItem="chB-AK-jlt" firstAttribute="trailing" secondItem="u9Y-xF-Oom" secondAttribute="trailing" constant="16" id="Sbq-Fu-84b"/>
+                            <constraint firstItem="UxF-th-9t9" firstAttribute="top" secondItem="nZ1-1b-7L7" secondAttribute="top" id="VH5-Im-zHb"/>
+                            <constraint firstItem="chB-AK-jlt" firstAttribute="trailing" secondItem="MDb-Yc-ujD" secondAttribute="trailing" constant="16" id="Xc1-Qq-eem"/>
+                            <constraint firstItem="nZ1-1b-7L7" firstAttribute="top" secondItem="MDb-Yc-ujD" secondAttribute="bottom" constant="16" id="Y3B-so-iME"/>
+                            <constraint firstItem="nZ1-1b-7L7" firstAttribute="leading" secondItem="chB-AK-jlt" secondAttribute="leading" constant="16" id="aRK-8X-nzK"/>
+                            <constraint firstItem="mfe-WN-dGT" firstAttribute="leading" secondItem="chB-AK-jlt" secondAttribute="leading" constant="16" id="fga-y9-NuF"/>
+                            <constraint firstItem="UxF-th-9t9" firstAttribute="trailing" secondItem="MDb-Yc-ujD" secondAttribute="trailing" id="i0K-H6-DS8"/>
+                            <constraint firstItem="MDb-Yc-ujD" firstAttribute="top" secondItem="mfe-WN-dGT" secondAttribute="bottom" constant="16" id="jLk-zE-xZD"/>
+                            <constraint firstItem="u9Y-xF-Oom" firstAttribute="leading" secondItem="chB-AK-jlt" secondAttribute="leading" constant="16" id="qLM-kh-xHE"/>
+                            <constraint firstItem="chB-AK-jlt" firstAttribute="bottom" secondItem="u9Y-xF-Oom" secondAttribute="bottom" constant="16" id="skV-in-LoQ"/>
+                            <constraint firstItem="uvN-xb-yKo" firstAttribute="top" secondItem="chB-AK-jlt" secondAttribute="top" constant="16" id="t4Y-Y5-6su"/>
+                            <constraint firstItem="MDb-Yc-ujD" firstAttribute="height" secondItem="mbG-wV-hT6" secondAttribute="height" multiplier="0.6" id="vG2-JE-9Qh"/>
+                            <constraint firstItem="chB-AK-jlt" firstAttribute="trailing" secondItem="uvN-xb-yKo" secondAttribute="trailing" constant="16" id="vom-ho-TON"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="chB-AK-jlt"/>
+                    </view>
+                    <connections>
+                        <outlet property="actorImageView" destination="MDb-Yc-ujD" id="9sr-4g-bC5"/>
+                        <outlet property="birthdayButton" destination="UxF-th-9t9" id="xQ7-fR-vc3"/>
+                        <outlet property="infoLabel" destination="u9Y-xF-Oom" id="uGi-89-ecM"/>
+                        <outlet property="languageLabel" destination="mfe-WN-dGT" id="42i-Qm-m4g"/>
+                        <outlet property="nameLabel" destination="nZ1-1b-7L7" id="Mey-JX-bYX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jw0-6d-dVD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="120"/>
+        </scene>
+    </scenes>
+</document>

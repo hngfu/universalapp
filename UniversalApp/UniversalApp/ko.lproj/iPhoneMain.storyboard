@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d1W-11-pdy">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TfY-VT-hdF">
+            <objects>
+                <viewController id="d1W-11-pdy" customClass="ViewController" customModule="UniversalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mlh-Z9-Fxd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGG-ZA-Hob">
+                                <rect key="frame" x="16" y="36" width="70" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keanu Charles Reeves" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i8G-Wm-RJo">
+                                <rect key="frame" x="16" y="536.66666666666663" width="230" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8f-sO-e9x">
+                                <rect key="frame" x="16" y="579.66666666666663" width="382" height="140.33333333333337"/>
+                                <string key="text">Movie star. Born in 1964, 54 years old.
+
+The official nationality is Canada. His father is a mixed-race American of native Hawaiians and Chinese, and his mother is British. The birthplace is Lebanon. His father then left his family when Keanu Reeves was three years old, and Keanu Reeves settled with his mother in Canada in 1970. Perhaps because of his father's lineage, he has an Asian feeling for a white actor who works in Hollywood.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7SK-JJ-52e">
+                                <rect key="frame" x="321" y="536.66666666666663" width="77" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="생년월일"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfD-Z9-hES">
+                                <rect key="frame" x="16" y="79.000000000000028" width="382" height="441.66666666666674"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gGG-ZA-Hob" firstAttribute="leading" secondItem="0L4-1V-0Lx" secondAttribute="leading" constant="16" id="9Rk-Ht-LBD"/>
+                            <constraint firstItem="7SK-JJ-52e" firstAttribute="top" secondItem="i8G-Wm-RJo" secondAttribute="top" id="Hd3-Mh-2lY"/>
+                            <constraint firstItem="dfD-Z9-hES" firstAttribute="leading" secondItem="0L4-1V-0Lx" secondAttribute="leading" constant="16" id="NMe-Lj-CBP"/>
+                            <constraint firstItem="0L4-1V-0Lx" firstAttribute="trailing" secondItem="J8f-sO-e9x" secondAttribute="trailing" constant="16" id="QK1-Ze-vFw"/>
+                            <constraint firstItem="0L4-1V-0Lx" firstAttribute="bottom" secondItem="J8f-sO-e9x" secondAttribute="bottom" constant="16" id="WAQ-Re-xk6"/>
+                            <constraint firstItem="dfD-Z9-hES" firstAttribute="top" secondItem="gGG-ZA-Hob" secondAttribute="bottom" constant="16" id="Y56-2L-i0G"/>
+                            <constraint firstItem="dfD-Z9-hES" firstAttribute="height" secondItem="Mlh-Z9-Fxd" secondAttribute="height" multiplier="0.6" id="diO-xW-Ryy"/>
+                            <constraint firstItem="gGG-ZA-Hob" firstAttribute="top" secondItem="0L4-1V-0Lx" secondAttribute="top" constant="16" id="h3B-JY-NFW"/>
+                            <constraint firstItem="i8G-Wm-RJo" firstAttribute="top" secondItem="dfD-Z9-hES" secondAttribute="bottom" constant="16" id="lAO-t8-qXi"/>
+                            <constraint firstItem="7SK-JJ-52e" firstAttribute="trailing" secondItem="dfD-Z9-hES" secondAttribute="trailing" id="lXh-Il-KDv"/>
+                            <constraint firstItem="J8f-sO-e9x" firstAttribute="top" secondItem="i8G-Wm-RJo" secondAttribute="bottom" constant="16" id="pgU-1A-fuS"/>
+                            <constraint firstItem="J8f-sO-e9x" firstAttribute="leading" secondItem="0L4-1V-0Lx" secondAttribute="leading" constant="16" id="qBj-Fx-6gU"/>
+                            <constraint firstItem="0L4-1V-0Lx" firstAttribute="trailing" secondItem="dfD-Z9-hES" secondAttribute="trailing" constant="16" id="sZV-wk-nck"/>
+                            <constraint firstItem="i8G-Wm-RJo" firstAttribute="leading" secondItem="0L4-1V-0Lx" secondAttribute="leading" constant="16" id="tS0-wb-4B2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0L4-1V-0Lx"/>
+                    </view>
+                    <connections>
+                        <outlet property="actorImageView" destination="dfD-Z9-hES" id="eWk-7G-VB8"/>
+                        <outlet property="birthdayButton" destination="7SK-JJ-52e" id="og2-Dy-gM1"/>
+                        <outlet property="infoLabel" destination="J8f-sO-e9x" id="KSN-cr-Es8"/>
+                        <outlet property="languageLabel" destination="gGG-ZA-Hob" id="kDQ-co-8Bc"/>
+                        <outlet property="nameLabel" destination="i8G-Wm-RJo" id="Tyh-Jm-NCK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="24B-6R-BCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41" y="64"/>
+        </scene>
+    </scenes>
+</document>
