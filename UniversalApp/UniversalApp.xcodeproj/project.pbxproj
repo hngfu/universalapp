@@ -13,6 +13,7 @@
 		7D1D851C22CB76DB001D340A /* KenShimizu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D851E22CB76DB001D340A /* KenShimizu.strings */; };
 		7D1D852122CB778F001D340A /* KeanuCharlesReeves.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D852322CB778F001D340A /* KeanuCharlesReeves.strings */; };
 		7D1D853022CB83A6001D340A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853222CB83A6001D340A /* InfoPlist.strings */; };
+		7D1D853622CB891E001D340A /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D853522CB891E001D340A /* LocalizationManager.swift */; };
 		7DA011EB22C9CA9500B66827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA011EA22C9CA9500B66827 /* AppDelegate.swift */; };
 		7DA011ED22C9CA9600B66827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA011EC22C9CA9600B66827 /* ViewController.swift */; };
 		7DA011F022C9CA9600B66827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA011EE22C9CA9600B66827 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		7D1D853122CB83A6001D340A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D1D853322CB83A7001D340A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D1D853422CB83A8001D340A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D1D853522CB891E001D340A /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
 		7DA011E722C9CA9500B66827 /* UniversalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA011EA22C9CA9500B66827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA011EC22C9CA9600B66827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				7DA011EA22C9CA9500B66827 /* AppDelegate.swift */,
 				7DA011EC22C9CA9600B66827 /* ViewController.swift */,
+				7D1D853522CB891E001D340A /* LocalizationManager.swift */,
 				7D1D853222CB83A6001D340A /* InfoPlist.strings */,
 				7D1D851922CB74BC001D340A /* LeeJeongJae.strings */,
 				7D1D851E22CB76DB001D340A /* KenShimizu.strings */,
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA011ED22C9CA9600B66827 /* ViewController.swift in Sources */,
+				7D1D853622CB891E001D340A /* LocalizationManager.swift in Sources */,
 				7DA011EB22C9CA9500B66827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
