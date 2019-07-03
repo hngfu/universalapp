@@ -13,9 +13,9 @@
 		7D1D851C22CB76DB001D340A /* JP.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D851E22CB76DB001D340A /* JP.strings */; };
 		7D1D852122CB778F001D340A /* US.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D852322CB778F001D340A /* US.strings */; };
 		7D1D853022CB83A6001D340A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853222CB83A6001D340A /* InfoPlist.strings */; };
-		7D1D853822CCC65A001D340A /* KRCommon.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853722CCC65A001D340A /* KRCommon.strings */; };
-		7D1D853A22CCC666001D340A /* JPCommon.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853922CCC666001D340A /* JPCommon.strings */; };
-		7D1D853C22CCC672001D340A /* USCommon.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853B22CCC672001D340A /* USCommon.strings */; };
+		7D1D853822CCC65A001D340A /* CommonKR.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853722CCC65A001D340A /* CommonKR.strings */; };
+		7D1D853A22CCC666001D340A /* CommonJP.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853922CCC666001D340A /* CommonJP.strings */; };
+		7D1D853C22CCC672001D340A /* CommonUS.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D853B22CCC672001D340A /* CommonUS.strings */; };
 		7D1D853E22CCEA76001D340A /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D853D22CCEA76001D340A /* Keys.swift */; };
 		7DA011EB22C9CA9500B66827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA011EA22C9CA9500B66827 /* AppDelegate.swift */; };
 		7DA011ED22C9CA9600B66827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA011EC22C9CA9600B66827 /* ViewController.swift */; };
@@ -44,9 +44,9 @@
 		7D1D853122CB83A6001D340A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D1D853322CB83A7001D340A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D1D853422CB83A8001D340A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7D1D853722CCC65A001D340A /* KRCommon.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = KRCommon.strings; sourceTree = "<group>"; };
-		7D1D853922CCC666001D340A /* JPCommon.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = JPCommon.strings; sourceTree = "<group>"; };
-		7D1D853B22CCC672001D340A /* USCommon.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = USCommon.strings; sourceTree = "<group>"; };
+		7D1D853722CCC65A001D340A /* CommonKR.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CommonKR.strings; sourceTree = "<group>"; };
+		7D1D853922CCC666001D340A /* CommonJP.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CommonJP.strings; sourceTree = "<group>"; };
+		7D1D853B22CCC672001D340A /* CommonUS.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = CommonUS.strings; sourceTree = "<group>"; };
 		7D1D853D22CCEA76001D340A /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		7DA011E722C9CA9500B66827 /* UniversalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA011EA22C9CA9500B66827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 				7DA011EA22C9CA9500B66827 /* AppDelegate.swift */,
 				7DA011EC22C9CA9600B66827 /* ViewController.swift */,
 				7D1D853D22CCEA76001D340A /* Keys.swift */,
-				7D1D853722CCC65A001D340A /* KRCommon.strings */,
-				7D1D853922CCC666001D340A /* JPCommon.strings */,
-				7D1D853B22CCC672001D340A /* USCommon.strings */,
+				7D1D853722CCC65A001D340A /* CommonKR.strings */,
+				7D1D853922CCC666001D340A /* CommonJP.strings */,
+				7D1D853B22CCC672001D340A /* CommonUS.strings */,
 				7D1D853222CB83A6001D340A /* InfoPlist.strings */,
 				7D1D851922CB74BC001D340A /* KR.strings */,
 				7D1D851E22CB76DB001D340A /* JP.strings */,
@@ -168,14 +168,14 @@
 			files = (
 				7DA011F522C9CA9700B66827 /* LaunchScreen.storyboard in Resources */,
 				7D1D851C22CB76DB001D340A /* JP.strings in Resources */,
-				7D1D853A22CCC666001D340A /* JPCommon.strings in Resources */,
+				7D1D853A22CCC666001D340A /* CommonJP.strings in Resources */,
 				7D1D84D222C9E0C1001D340A /* iPadMain.storyboard in Resources */,
 				7D1D84D922C9E0CC001D340A /* iPhoneMain.storyboard in Resources */,
 				7DA011F222C9CA9700B66827 /* Assets.xcassets in Resources */,
 				7D1D851722CB74BC001D340A /* KR.strings in Resources */,
-				7D1D853822CCC65A001D340A /* KRCommon.strings in Resources */,
+				7D1D853822CCC65A001D340A /* CommonKR.strings in Resources */,
 				7DA011F022C9CA9600B66827 /* Main.storyboard in Resources */,
-				7D1D853C22CCC672001D340A /* USCommon.strings in Resources */,
+				7D1D853C22CCC672001D340A /* CommonUS.strings in Resources */,
 				7D1D853022CB83A6001D340A /* InfoPlist.strings in Resources */,
 				7D1D852122CB778F001D340A /* US.strings in Resources */,
 			);

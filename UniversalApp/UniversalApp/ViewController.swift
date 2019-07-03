@@ -60,6 +60,6 @@ extension String {
     
     var commonLocalized: String? {
         guard let table = Locale.current.regionCode else { return nil }
-        return Bundle.main.localizedString(forKey: self, value: nil, table: "\(table)Common")
+        return Bundle.main.localizedString(forKey: self, value: nil, table: "Common\(table)")
     }
 }
