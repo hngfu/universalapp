@@ -25,19 +25,19 @@ class ViewController: UIViewController {
             let region = locale.localizedString(forRegionCode: regionCode) {
             languageLabel.text = "\(language)\t\(region)"
         }
-        if let imageName = "imageName".commonLocalized {
+        if let imageName = Keys.imageName.commonLocalized {
             actorImageView.image = UIImage(named: imageName)
         }
-        nameLabel.text = "name".localized
-        infoLabel.text = "info".localized
+        nameLabel.text = Keys.name.localized
+        infoLabel.text = Keys.info.localized
     }
     
     @IBAction func touchUpInsideBirthdayButton(_ sender: Any) {
-        guard let birthday = "birthday".commonLocalized else { return }
+        guard let birthday = Keys.birthday.commonLocalized else { return }
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         guard let date = dateFormatter.date(from: birthday),
-            let language = "language".commonLocalized else { return }
+            let language = Keys.language.commonLocalized else { return }
         dateFormatter.dateStyle = .full
         dateFormatter.locale = Locale(identifier: language)
         let formattedBirthday = dateFormatter.string(from: date)
