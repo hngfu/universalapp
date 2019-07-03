@@ -17,6 +17,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let language = languageLabel.text,
+            let region = "region".localized {
+            languageLabel.text = "\(language)\t\(region)"
+        }
+        nameLabel.text = "name".localized
+        infoLabel.text = "info".localized
+    }
+}
 
+extension String {
+    var localized: String? {
+        guard let table = Locale.current.regionCode else { return nil }
+        return Bundle.main.localizedString(forKey: self, value: nil, table: table)
     }
 }
