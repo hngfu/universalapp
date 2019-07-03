@@ -37,6 +37,9 @@
                                 <rect key="frame" x="855" y="940.5" width="153" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <state key="normal" title="생년월일"/>
+                                <connections>
+                                    <action selector="touchUpInsideBirthdayButton:" destination="dCK-6Q-Igs" eventType="touchUpInside" id="SwZ-I7-yty"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이 라벨은 iPad에서 보입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvN-xb-yKo">
                                 <rect key="frame" x="507" y="36" width="501" height="53"/>

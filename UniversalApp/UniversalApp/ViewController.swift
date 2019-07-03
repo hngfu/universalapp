@@ -18,15 +18,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let language = languageLabel.text,
-            let region = "region".localized {
+        let locale = Locale.current
+        if let languageCode = locale.languageCode,
+            let language = locale.localizedString(forLanguageCode: languageCode),
+            let regionCode = locale.regionCode,
+            let region = locale.localizedString(forRegionCode: regionCode) {
             languageLabel.text = "\(language)\t\(region)"
         }
-        if let imageName = "imageName".localized {
+        if let imageName = "imageName".commonLocalized {
             actorImageView.image = UIImage(named: imageName)
         }
         nameLabel.text = "name".localized
         infoLabel.text = "info".localized
+    }
+    
+    @IBAction func touchUpInsideBirthdayButton(_ sender: Any) {
+        guard let birthday = "birthday".commonLocalized else { return }
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        guard let date = dateFormatter.date(from: birthday),
+            let language = "language".commonLocalized else { return }
+        dateFormatter.dateStyle = .full
+        dateFormatter.locale = Locale(identifier: language)
+        let formattedBirthday = dateFormatter.string(from: date)
+        let alertController = UIAlertController(title: formattedBirthday,
+                                                message: nil,
+                                                preferredStyle: .alert)
+        let closeAction = UIAlertAction(title: "Close",
+                                        style: .cancel,
+                                        handler: nil)
+        alertController.addAction(closeAction)
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 
@@ -34,5 +56,10 @@ extension String {
     var localized: String? {
         guard let table = Locale.current.regionCode else { return nil }
         return Bundle.main.localizedString(forKey: self, value: nil, table: table)
+    }
+    
+    var commonLocalized: String? {
+        guard let table = Locale.current.regionCode else { return nil }
+        return Bundle.main.localizedString(forKey: self, value: nil, table: "\(table)Common")
     }
 }

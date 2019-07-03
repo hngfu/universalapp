@@ -37,6 +37,9 @@
                                 <rect key="frame" x="851" y="940.5" width="157" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <state key="normal" title="Birthday"/>
+                                <connections>
+                                    <action selector="touchUpInsideBirthdayButton:" destination="dCK-6Q-Igs" eventType="touchUpInside" id="qT8-5y-qY6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show this label on iPad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvN-xb-yKo">
                                 <rect key="frame" x="580" y="36" width="428" height="53"/>
