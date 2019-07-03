@@ -22,6 +22,9 @@ class ViewController: UIViewController {
             let region = "region".localized {
             languageLabel.text = "\(language)\t\(region)"
         }
+        if let imageName = "imageName".localized {
+            actorImageView.image = UIImage(named: imageName)
+        }
         nameLabel.text = "name".localized
         infoLabel.text = "info".localized
     }
