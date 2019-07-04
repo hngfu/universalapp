@@ -77,3 +77,5 @@ Bundle.main.localizedString(forKey: self, value: nil, table: table)
 <img width="400" src="https://user-images.githubusercontent.com/38850628/60647008-acdd6c80-9e77-11e9-985d-bdf52ad37123.PNG">
 
 <img width="400" src="https://user-images.githubusercontent.com/38850628/60647166-08a7f580-9e78-11e9-96a8-80da0b3bec68.PNG">
+
+<img width="400" src="https://user-images.githubusercontent.com/38850628/60680936-33219f00-9ec8-11e9-902f-b96430d0defb.gif">
