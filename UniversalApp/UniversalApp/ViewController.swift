@@ -41,6 +41,15 @@ class ViewController: UIViewController {
         #else
         actorImageView.layer.cornerRadius = 100
         #endif
+
+        if #available(iOS 11.0, *) {
+            guard let font = UIFont(name: "Helvetica Neue", size: 17) else { return }
+            let fontMetrics = UIFontMetrics(forTextStyle: .body)
+            infoLabel.font = fontMetrics.scaledFont(for: font)
+        } else {
+            let font = UIFont.systemFont(ofSize: 17)
+            infoLabel.font = font
+        }
     }
     
     @IBAction func touchUpInsideBirthdayButton(_ sender: Any) {
