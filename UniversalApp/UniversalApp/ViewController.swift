@@ -24,7 +24,8 @@ class ViewController: UIViewController {
             let language = locale.localizedString(forLanguageCode: languageCode),
             let regionCode = locale.regionCode,
             let region = locale.localizedString(forRegionCode: regionCode) {
-            languageLabel.text = "\(language)\t\(region)"
+            let device = UIDevice.current
+            languageLabel.text = "\(language)\t\(region)\t\(device.systemName)\(device.systemVersion)"
         }
         if let imageName = Keys.imageName.commonLocalized {
             actorImageView.image = UIImage(named: imageName)
