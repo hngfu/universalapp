@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var languageLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
+    @IBOutlet weak var birthdayButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

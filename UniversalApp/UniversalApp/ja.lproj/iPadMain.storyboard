@@ -80,6 +80,7 @@ The official nationality is Canada. His father is a mixed-race American of nativ
                     </view>
                     <connections>
                         <outlet property="actorImageView" destination="MDb-Yc-ujD" id="9sr-4g-bC5"/>
+                        <outlet property="birthdayButton" destination="UxF-th-9t9" id="WHA-DY-Ha5"/>
                         <outlet property="infoLabel" destination="u9Y-xF-Oom" id="uGi-89-ecM"/>
                         <outlet property="languageLabel" destination="mfe-WN-dGT" id="42i-Qm-m4g"/>
                         <outlet property="nameLabel" destination="nZ1-1b-7L7" id="Mey-JX-bYX"/>
