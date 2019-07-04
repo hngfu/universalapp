@@ -35,6 +35,11 @@ class ViewController: UIViewController {
         
         #if targetEnvironment(simulator)
         birthdayButton.isEnabled = false
+        if UIDevice.current.name == "iPhone X" {
+            actorImageView.layer.cornerRadius = 100
+        }
+        #else
+        actorImageView.layer.cornerRadius = 100
         #endif
     }
     

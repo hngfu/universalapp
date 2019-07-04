@@ -47,7 +47,7 @@ The official nationality is Canada. His father is a mixed-race American of nativ
                                     <action selector="touchUpInsideBirthdayButton:" destination="d1W-11-pdy" eventType="touchUpInside" id="8Vd-yc-L2W"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfD-Z9-hES">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dfD-Z9-hES">
                                 <rect key="frame" x="16" y="79.000000000000028" width="382" height="441.66666666666674"/>
                             </imageView>
                         </subviews>
