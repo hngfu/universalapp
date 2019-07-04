@@ -31,6 +31,10 @@ class ViewController: UIViewController {
         }
         nameLabel.text = Keys.name.localized
         infoLabel.text = Keys.info.localized
+        
+        #if targetEnvironment(simulator)
+        birthdayButton.isEnabled = false
+        #endif
     }
     
     @IBAction func touchUpInsideBirthdayButton(_ sender: Any) {
